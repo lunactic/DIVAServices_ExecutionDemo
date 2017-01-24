@@ -25,7 +25,7 @@ import javax.imageio.ImageIO;
 public class DivaServicesTest {
 
     public static void main(String[] args) throws IOException, CollectionException, MethodNotAvailableException {
-        DivaServicesConnection connection = new DivaServicesConnection("http://localhost:8080", 5);
+        DivaServicesConnection connection = new DivaServicesConnection("http://172.16.10.233:8080", 5);
         DivaServicesCommunicator communicator = new DivaServicesCommunicator(connection);
 
         
